@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Университетски курс „Упражнения по полупроводникови прибори“ — упражнения, материали, задачи и график.">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>Упражнения по полупроводникови прибори</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Към съдържанието</a>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Начална страница"><span class="mark" aria-hidden="true">pn</span>Полупроводникови прибори</a>
+      <nav aria-label="Основна навигация">
+        <a href="#exercises">Упражнения</a><a href="#materials">Материали</a><a href="#assignments">Задачи</a><a href="#schedule">График</a><a href="#resources">Ресурси</a><a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="course-title">
+      <p class="eyebrow">Университетски курс · Практически упражнения</p>
+      <h1 id="course-title">Упражнения по полупроводникови прибори</h1>
+      <p class="lead">От физиката на p-n прехода до анализа на транзисторни схеми. Развийте практически умения чрез изчисления, симулации и измерване на реални характеристики.</p>
+      <div class="actions"><a class="button" href="#exercises">Към упражненията <span aria-hidden="true">↗</span></a><a href="#schedule">Вижте примерния график →</a></div>
+      <dl class="meta"><div><dt>Обхват</dt><dd>7 тематични упражнения</dd></div><div><dt>Подход</dt><dd>Теория · Симулация · Измерване</dd></div><div><dt>Подготовка</dt><dd>Основи на електротехниката</dd></div></dl>
+    </section>
+    <section id="exercises" class="section" aria-labelledby="exercises-title">
+      <div class="heading"><div><p class="eyebrow">01 / Практика</p><h2 id="exercises-title">Упражнения</h2></div><p>Изберете тема за целите и примерната работа.</p></div>
+      <div class="exercises">
+        <details><summary><span class="number">01</span><span>p-n преход и диод<small>Волт-амперна характеристика</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Изследване на диод при права и обратна поляризация.</p><ol><li>Начертайте измервателна схема с токоограничаващ резистор.</li><li>Измерете и представете графично зависимостта I<sub>D</sub>(U<sub>D</sub>).</li><li>Определете статичното и диференциалното съпротивление около избрана работна точка.</li></ol><p class="deliverable">Резултат: схема, таблица с измервания и графика.</p></div></details>
+        <details><summary><span class="number">02</span><span>Диодни схеми<small>Изправители и ограничители</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Анализ на преобразуването на сигнали чрез диодни схеми.</p><ol><li>Сравнете еднополупериоден и мостов изправител.</li><li>Изследвайте влиянието на филтриращия кондензатор и товара върху пулсациите.</li><li>Симулирайте диоден ограничител и обяснете формата на изходния сигнал.</li></ol><p class="deliverable">Резултат: осцилограми и сравнение с изчисленията.</p></div></details>
+        <details><summary><span class="number">03</span><span>Стабилитрон<small>Параметрична стабилизация</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Избор на работен режим на стабилизатор със стабилитрон.</p><ol><li>Изберете последователен резистор за зададени входно напрежение и товар.</li><li>Проверете тока през стабилитрона при крайни режими.</li><li>Оценете разсейваната мощност и промяната на изходното напрежение.</li></ol><p class="deliverable">Резултат: изчисления и проверка на допустимите режими.</p></div></details>
+        <details><summary><span class="number">04</span><span>Биполярен транзистор<small>Работна точка и режими</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Разпознаване на отсечка, активен режим и насищане.</p><ol><li>Постройте изходни характеристики за няколко базови тока.</li><li>Начертайте товарната права и определете работната точка.</li><li>Оценете влиянието на коефициента на усилване по ток върху избраната схема.</li></ol><p class="deliverable">Резултат: семейство характеристики и анализ на режима.</p></div></details>
+        <details><summary><span class="number">05</span><span>MOSFET<small>Управление с напрежение</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Изследване на предавателните и изходните характеристики на MOSFET.</p><ol><li>Представете I<sub>D</sub>(U<sub>GS</sub>) при зададено U<sub>DS</sub>.</li><li>Разграничете отсечка, линеен режим и насищане.</li><li>Сравнете праговото напрежение с условията за работа като включен ключ.</li></ol><p class="deliverable">Резултат: графики и обоснован избор на работна точка.</p></div></details>
+        <details><summary><span class="number">06</span><span>Малосигнални модели<small>Линеаризация около работна точка</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Прилагане на малосигнален модел за анализ на транзисторен усилвател.</p><ol><li>Определете параметрите на модела от постоянния режим.</li><li>Изчислете усилването по напрежение и входното съпротивление.</li><li>Сравнете модела със симулация при различни входни амплитуди.</li></ol><p class="deliverable">Резултат: еквивалентна схема и граници на приложимост.</p></div></details>
+        <details><summary><span class="number">07</span><span>Измерване и анализ на характеристики<small>Обработка и интерпретация на данни</small></span></summary><div class="exercise-body"><p><strong>Цел:</strong> Съпоставка на теоретичен модел, симулация и експеримент.</p><ol><li>Опишете измервателната постановка, уредите и обхватите.</li><li>Обработете данните с означени оси, единици и неопределености.</li><li>Обяснете разликите между измерванията и модела.</li></ol><p class="deliverable">Резултат: кратък лабораторен протокол с изводи.</p></div></details>
+      </div>
+    </section>
+    <section id="materials" class="section" aria-labelledby="materials-title">
+      <div class="heading"><div><p class="eyebrow">02 / Подготовка</p><h2 id="materials-title">Материали</h2></div><p>Място за учебните файлове на курса.</p></div>
+      <div class="cards">
+        <article class="card"><span class="tag">Ръководство</span><h3>Указания за упражненията</h3><p>Теоретична подготовка, измервателни схеми и последователност на работа.</p><p class="status">Предстои добавяне на файл</p></article>
+        <article class="card"><span class="tag">Протокол</span><h3>Шаблон за отчет</h3><p>Цел, схема, използвани прибори, резултати, анализ и заключение.</p><p class="status">Предстои добавяне на файл</p></article>
+        <article class="card"><span class="tag">Симулации</span><h3>Примерни модели</h3><p>SPICE схеми, модели на прибори и примерни входни сигнали.</p><p class="status">Предстои добавяне на файлове</p></article>
+      </div>
+    </section>
+    <section id="assignments" class="section" aria-labelledby="assignments-title">
+      <div class="heading"><div><p class="eyebrow">03 / Самостоятелна работа</p><h2 id="assignments-title">Задачи</h2></div><p>Примерни задания за подготовка и обсъждане.</p></div>
+      <div class="cards">
+        <article class="card"><span class="tag">Задача 01 · Диод</span><h3>Избор на резистор</h3><p>При захранване 5 V и приет пад върху диода 0,7 V изчислете резистор за ток 10 mA. Изберете стандартна стойност и проверете тока и мощността.</p></article>
+        <article class="card"><span class="tag">Задача 02 · Стабилитрон</span><h3>Проверка на стабилизатор</h3><p>За вход 10–14 V, стабилитрон 5,1 V и товар 1 kΩ определете допустимия диапазон на резистора при ток през стабилитрона 5–20 mA. Приемете постоянно стабилизиращо напрежение.</p></article>
+        <article class="card"><span class="tag">Задача 03 · MOSFET</span><h3>Загуби при проводимост</h3><p>При ток 0,5 A и съпротивление в отпушено състояние 0,2 Ω изчислете пада на напрежение и мощността. Приемете, че съпротивлението е зададено за използваното управляващо напрежение и температура.</p></article>
+      </div>
+      <p class="note">Представете схема, допускания, изчисления с единици и кратък извод. Сроковете и начинът на предаване се уточняват от преподавателя.</p>
+    </section>
+    <section id="schedule" class="section" aria-labelledby="schedule-title">
+      <div class="heading"><div><p class="eyebrow">04 / Организация</p><h2 id="schedule-title">График</h2></div><p id="schedule-note">Примерно разпределение; датите и залата предстои да се уточнят.</p></div>
+      <div class="table-wrap" role="region" aria-label="График на упражненията" tabindex="0">
+        <table aria-describedby="schedule-note"><caption>Последователност на занятията</caption><thead><tr><th scope="col">Занятие</th><th scope="col">Тема</th><th scope="col">Подготовка</th></tr></thead><tbody>
+          <tr><th scope="row">01</th><td>p-n преход и диод</td><td>Ток, напрежение и закон на Ом</td></tr>
+          <tr><th scope="row">02</th><td>Диодни схеми</td><td>Модели на диод</td></tr>
+          <tr><th scope="row">03</th><td>Стабилитрон</td><td>Пробив и разсейвана мощност</td></tr>
+          <tr><th scope="row">04</th><td>Биполярен транзистор</td><td>Токове и режими на BJT</td></tr>
+          <tr><th scope="row">05</th><td>MOSFET</td><td>Полеви ефект и характеристики</td></tr>
+          <tr><th scope="row">06</th><td>Малосигнални модели</td><td>Работна точка и линеаризация</td></tr>
+          <tr><th scope="row">07</th><td>Измерване и анализ</td><td>Графики и неопределеност</td></tr>
+        </tbody></table>
+      </div>
+    </section>
+    <section id="resources" class="section" aria-labelledby="resources-title">
+      <div class="heading"><div><p class="eyebrow">05 / Допълнително четене</p><h2 id="resources-title">Полезни ресурси</h2></div><p>Външни ресурси на английски език.</p></div>
+      <div class="cards">
+        <a class="card resource" href="https://www.allaboutcircuits.com/textbook/"><h3>All About Circuits <span aria-hidden="true">↗</span></h3><p>Учебни материали по електроника и анализ на схеми.</p></a>
+        <a class="card resource" href="https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html"><h3>LTspice <span aria-hidden="true">↗</span></h3><p>Симулатор за изследване на аналогови електронни схеми.</p></a>
+        <a class="card resource" href="https://www.ti.com/"><h3>Texas Instruments <span aria-hidden="true">↗</span></h3><p>Технически описания на прибори и приложни материали.</p></a>
+      </div>
+    </section>
+    <section id="contacts" class="section" aria-labelledby="contacts-title">
+      <div class="heading"><div><p class="eyebrow">06 / Връзка</p><h2 id="contacts-title">Контакти</h2></div></div>
+      <div class="contact"><div><h3>Преподавател и консултации</h3><p>Данните за връзка ще бъдат добавени преди началото на курса.</p></div>
+        <!-- Попълнете действителните данни за курса. -->
+        <dl><div><dt>Преподавател</dt><dd>Предстои обявяване</dd></div><div><dt>Електронна поща</dt><dd>Предстои добавяне</dd></div><div><dt>Кабинет</dt><dd>Предстои уточняване</dd></div><div><dt>Приемно време</dt><dd>Предстои уточняване</dd></div></dl>
+      </div>
+    </section>
+  </main>
+  <footer class="container"><p>Упражнения по полупроводникови прибори · Учебен сайт</p><a href="#course-title">Към началото ↑</a></footer>
+</body>
+</html>
